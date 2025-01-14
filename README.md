@@ -1,4 +1,4 @@
-**简体中文** | [English](README-en) | [日本語](README-ja.md) | [うちなーぐち](README-ryu.md) | [Русский](README-ru.md) | [Беларуская](README-be.md) | [Українська](README-uk.md)
+**简体中文** | [English](README-en.md) | [日本語](README-ja.md) | [うちなーぐち](README-ryu.md) | [Русский](README-ru.md) | [Беларуская](README-be.md) | [Українська](README-uk.md)
 
 <div align="center">
   <img width="300" src="./assets/icon/logo.png" alt="Miru 看板娘"/>
@@ -6,7 +6,7 @@
 
 <h1 align="center">Moru App</h1>
 
-<p align="center">本Fork主要针对移动平台，支持Android，IOS，其余平台将逐渐弱化支持</p>
+<h1 align="center">本Fork主要针对移动平台，支持Android，IOS，其余平台将逐渐弱化支持</h1>
 
 <p align="center">免费，开源的 支持视频，漫画，小说扩展源的多功能应用，支持 Android，Windows，Web.</p>
 
@@ -27,7 +27,7 @@
 - 进行了多处UI改进
 - 支持漫画自动加载下一页
 - 修复一些bug，平台问题
-...更多内容请查看Dev分支提交日志
+- ...更多内容请查看Dev分支提交日志
 
 ## 特性
 

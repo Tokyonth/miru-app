@@ -1,4 +1,4 @@
-[简体中文](README) | **English** | [日本語](README-ja.md) | [うちなーぐち](README-ryu.md) | [Русский](README-ru.md) | [Беларуская](README-be.md) | [Українська](README-uk.md)
+[简体中文](README.md) | **English** | [日本語](README-ja.md) | [うちなーぐち](README-ryu.md) | [Русский](README-ru.md) | [Беларуская](README-be.md) | [Українська](README-uk.md)
 
 <div align="center">
   <img width="300" src="./assets/icon/logo.png" alt="Miru 看板娘"/>
@@ -6,7 +6,7 @@
 
 <h1 align="center">Moru App</h1>
 
-<p align="center">This Fork is mainly aimed at mobile platforms and supports Android and IOS. Support for other platforms will gradually weaken.</p>
+<h1 align="center">This Fork is mainly aimed at mobile platforms and supports Android and IOS. Support for other platforms will gradually weaken.</h1>
 
 <p align="center">Free and open source Multi-functional application that supports video, comics, novels extended source for Android, Windows, Web.</p>
 
@@ -27,7 +27,7 @@
 - Many UI improvements have been made
 - Support comics to automatically load the next page
 - Fix some bugs and platform issues
-...For more information, please view the Dev branch commit
+- ...For more information, please view the Dev branch commit
 
 ## Features
 
