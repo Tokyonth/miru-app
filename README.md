@@ -1,12 +1,14 @@
-**English** | [简体中文](README-zh.md) | [日本語](README-ja.md) | [うちなーぐち](README-ryu.md) | [Русский](README-ru.md) | [Беларуская](README-be.md) | [Українська](README-uk.md)
+**简体中文** | [English](README-en) | [日本語](README-ja.md) | [うちなーぐち](README-ryu.md) | [Русский](README-ru.md) | [Беларуская](README-be.md) | [Українська](README-uk.md)
 
 <div align="center">
   <img width="300" src="./assets/icon/logo.png" alt="Miru 看板娘"/>
 </div>
 
-<h1 align="center">Miru App</h1>
+<h1 align="center">Moru App</h1>
 
-<p align="center">Free and open source Multi-functional application that supports video, comics, novels extended source for Android, Windows, Web.</p>
+<p align="center">本Fork主要针对移动平台，支持Android，IOS，其余平台将逐渐弱化支持</p>
+
+<p align="center">免费，开源的 支持视频，漫画，小说扩展源的多功能应用，支持 Android，Windows，Web.</p>
 
 <div align="center">
 
@@ -19,49 +21,55 @@
 
 ![screenshot](assets/screenshot/screenshot.webp)
 
-## Features
+## Moru
 
-- Support for `windows` and `android`
-- Friendly extension writing support, debug log
-- The extension uses the JavaScript language, and the development is simple
-- Support for a custom extension repository
-- The official extension repository provides video sources, which can be used without writing any extensions
-- Support online viewing of multiple sources of videos, comics, and novels, realizing the unification of multiple platforms
-- Unify the design language of the system UI
-- Automatically fetch TMDB metadata information
-- Support for AniList tracking
-- Support for Proxy Server Protocols (HTTP, SOCKS4, SOCKS5)
+- 重构了Runtime，优化原Miru内存资源占用过高
+- 进行了多处UI改进
+- 支持漫画自动加载下一页
+- 修复一些bug，平台问题
+...更多内容请查看Dev分支提交日志
+
+## 特性
+
+- 支持 `windows`，`android`, `ios`
+- 友好的扩展编写支持，调试日志
+- 扩展使用 JavaScript 语言，开发简单
+- 支持自定义扩展仓库
+- 官方扩展仓库提供视频源，无需编写任何扩展即可使用
+- 支持在线观看多种视频，漫画，小说源，实现多平台的统一
+- 统一系统 UI 的设计语言
+- 自动获取 TMDB 元数据信息
 
 ## Todo
 
-- [x] BT torrent
-- [x] Better debugging tools
-- [ ] Data synchronization
-- [ ] Automatically search for subtitles
+- [x] BT 种子播放
+- [x] 更好的调试工具
+- [ ] 数据同步
+- [ ] 自动搜寻字幕
 
-## Installing
+## 安装
 
-You can go to [Release](https://github.com/miru-project/miru-app/releases/latest) to download the latest version of the installation package from the page, or build it yourself by the following method
+你可以通过 [Release](https://github.com/miru-project/miru-app/releases/latest) 页面下载最新版本的安装包，或者通过下面的方法自行构建
 
-## Building
+## 构建
 
-### Install Flutter
+### 安装 Flutter
 
-Please refer to the [Flutter Official Documentation](https://flutter.dev/docs/get-started/install).
+参考 [Flutter 官方文档](https://flutter.dev/docs/get-started/install)
 
-### Install dependencies
+### 安装依赖
 
 ```bash
 flutter pub get
 ```
 
-### Run
+### 运行
 
 ```bash
 flutter run
 ```
 
-### Build for the right platform
+### 打包
 
 Android
 
@@ -75,19 +83,19 @@ Windows
 flutter build windows
 ```
 
-## About Linux
+## 关于 Linux
 
-At present, Linux cannot start quickjs due to dependency problems, so it is not supported for the time being
+目前 Linux 因为依赖问题导致无法启动 quickjs 所以暂时不支持了
 
-## Contribution
+## 贡献
 
-Contributions of any kind are welcome, including but not limited to:
+欢迎任何形式的贡献，包括但不限于：
 
-- make a suggestion
-- bug feedback
-- code contribution
-- document writing
+- 提出建议
+- Bug 反馈
+- 代码贡献
+- 文档编写
 
-## Additional links
+## 交流
 
 Telegram: <https://t.me/MiruChat>
