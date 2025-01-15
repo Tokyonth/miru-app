@@ -81,7 +81,7 @@ console.log = function (message) {
   if (typeof message === "object") {
     message = JSON.stringify(message);
   }
-  sendMessage("mobruLog", JSON.stringify([message.toString()]));
+  sendMessage("moruLog", JSON.stringify([message.toString()]));
 };
 
 class Extension {
@@ -160,7 +160,7 @@ class Extension {
   }
 
   tags(url) {
-    throw new Error("not implement watch");
+    throw new Error("not implement tags");
   }
 
   checkUpdate(url) {

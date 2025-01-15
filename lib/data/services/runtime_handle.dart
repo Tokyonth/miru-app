@@ -28,7 +28,7 @@ class RuntimeHandle {
   void attachHandleBridge() {
     runtime.onMessage('getSetting', (dynamic args) => jsGetMessage(args));
     // 日志
-    runtime.onMessage('mobruLog', (args) => jsLog(args));
+    runtime.onMessage('moruLog', (args) => jsLog(args));
     // 请求
     runtime.onMessage('request', (args) => jsRequest(args));
     // 设置
@@ -54,7 +54,7 @@ class RuntimeHandle {
         });
       }
 
-      handleDartBridge('mobruLog', jsLog);
+      handleDartBridge('moruLog', jsLog);
       handleDartBridge('cleanSettings$className', jsCleanSettings);
       handleDartBridge('request$className', jsRequest);
       handleDartBridge('queryXPath$className', jsQueryXPath);

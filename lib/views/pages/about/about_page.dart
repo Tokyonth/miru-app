@@ -29,7 +29,7 @@ class AboutPage extends GetBindingWidget<AboutController> {
           width: 24,
           height: 24,
         ),
-        title: "Mobru based on Miru",
+        title: "Moru based on Miru",
         subTitle: "AGPL-3.0 License",
         open: true,
         noPage: true,
@@ -43,12 +43,12 @@ class AboutPage extends GetBindingWidget<AboutController> {
             GestureDetector(
               onTap: () async {
                 await launchUrl(
-                  Uri.parse(controller.mobruLink),
+                  Uri.parse(controller.moruLink),
                   mode: LaunchMode.externalApplication,
                 );
               },
               child: const Text(
-                "Mobru Github",
+                "Moru Github",
                 style: TextStyle(
                   color: Colors.blue,
                 ),

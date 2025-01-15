@@ -11,7 +11,7 @@ class AboutController extends GetxController {
     'F-Droid': 'https://f-droid.org/zh_Hans/packages/miru.miaomint/',
   };
 
-  final mobruLink = "https://github.com/Tokyonth/mobru-app";
+  final moruLink = "https://github.com/Tokyonth/moru-app";
 
   _getContributors() async {
     final res = await dio

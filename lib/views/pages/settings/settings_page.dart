@@ -82,7 +82,7 @@ class SettingsPage extends GetSaveWidget<SettingsController> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Mobru",
+                    "Moru",
                     style: TextStyle(
                       color: context.primaryColor,
                       fontSize: 24,
@@ -90,7 +90,7 @@ class SettingsPage extends GetSaveWidget<SettingsController> {
                     ),
                   ),
                   Text(
-                    "Version: 1.0.0",
+                    "Version: 1.0.1",
                     style: TextStyle(
                       color: context.primaryColor,
                       fontSize: 16,
@@ -102,7 +102,7 @@ class SettingsPage extends GetSaveWidget<SettingsController> {
                     alignment: Alignment.bottomRight,
                     child: InkWell(
                       child: Text(
-                        "${"settings.about".i18n} Mobru",
+                        "${"settings.about".i18n} Moru",
                         style: TextStyle(
                           decoration: TextDecoration.underline,
                           decorationColor: context.primaryColor,
